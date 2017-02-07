@@ -5,6 +5,8 @@
 using namespace cv;
 #define MAX_NUM_IMAGES 60000 
 
+typedef unsigned char BYTE;
+
 class DigitRecognizer {
 public:
 	DigitRecognizer();
